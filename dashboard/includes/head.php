@@ -8,8 +8,12 @@
 	<meta name="keywords" content="Realidade aumentada brasil, realidade aumentada como fazer, realidade aumentada na educação, realidade aumentada exemplos, realidade aumentada e realidade virtual, realidade aumentada, realidade aumentada o que é, realidade aumentada como funciona">
 
 	<link rel="stylesheet" href="../public/css/style.css">
+	<link rel="stylesheet" href="../public/css/framework.css">
+	<link rel="stylesheet" href="../public/css/owl.carousel.min.css">
+	<link rel="stylesheet" href="../public/css/owl.theme.default.min.css">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<script type="text/javascript" src="../public/js/owl.carousel.min.js"></script>
+
 </head>
 
 

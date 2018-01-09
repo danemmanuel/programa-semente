@@ -45,7 +45,17 @@
 	</div>
 </div>
 <div class="navheader">
-	pesq
+	<div class="search">
+		<form class="searchform">
+			<input type="text" placeholder="Pesquisar...">
+		</form>
+	</div>
+	<div class="user">
+		<div class="avatar">
+		<img src="../public/img/profile.jpg" alt="">
+		</div>
+		<div class="name">Olá, Aline!</div>
+	</div>
 </div>
 
 <script>
