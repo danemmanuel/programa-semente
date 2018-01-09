@@ -32,6 +32,7 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+button:focus {outline:0;}
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
@@ -65,8 +66,9 @@ svg{
 	background-color: #f3f3f3;
 	background-image: url('../img/background.png');
 	background-position: center;
-	background-size: cover;
-	height: 100vh;
+	background-repeat: no-repeat;
+	background-size: 100%;
+	padding: 50px 0;
 	width: 100vw;
 }
 .container-login{
@@ -132,10 +134,36 @@ margin: 10px 0;
 	color: #78ad37;
 }
 .cadastrese{
-	margin-top: 50px;
+	margin-top: 80px;
 	text-align: center;
 	width: 100%;
 }
 .cadastrese .text-green a{
 	color: #78ad37;
+}
+.change{
+	display: flex;
+	    justify-content: space-between;
+}
+.change .imaluno, .change .improfessor{
+	flex-basis: 48%;
+}
+.change .btn.active{
+	opacity: 1;
+	transition: 0.3s;
+}
+.change .btn{
+	transition: 0.3s;
+	width: 100%;
+	background-color: #fff;
+	color: #78ad37;
+	border: 2px solid #78ad37;
+	font-family: 'Montserrat', sans-serif;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 16px;
+	opacity: 0.3;
+}
+#cadastroprofessor{
+display: none;
 }

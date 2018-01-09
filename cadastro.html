@@ -1,0 +1,66 @@
+<html lang="pt-br">
+<head>
+	<title>Programa semente</title>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+	<meta name="description" content="Halem é o aplicativo universal de Realidade Aumentada que pode ser utilizado para os mais diversos fins">
+	<meta name="keywords" content="Realidade aumentada brasil, realidade aumentada como fazer, realidade aumentada na educação, realidade aumentada exemplos, realidade aumentada e realidade virtual, realidade aumentada, realidade aumentada o que é, realidade aumentada como funciona">
+
+	<link rel="stylesheet" href="public/css/style.css">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+</head>
+
+
+<body>
+	<section class="page-login">
+		<div class="container-login">
+			<div class="change">
+				<div class="imaluno">
+					<button class="btn active" id="aluno">
+						Sou aluno
+					</button>
+				</div>
+				<div class="improfessor">
+					<button class="btn" id="professor">
+						Sou professor
+					</button>
+				</div>
+			</div>
+			<div class="form-login" id="cadastroaluno">
+				<input type="text" class="input" autocomplete="off" placeholder="Nome">
+				<input type="text" class="input" autocomplete="off" placeholder="Nome do Responsável">
+				<input type="text" class="input" autocomplete="off" placeholder="Código do Aluno">
+				<input type="text" class="input" autocomplete="off" placeholder="Escola">
+				<input type="password" class="input" autocomplete="off" placeholder="Senha">
+				<input type="password" class="input" autocomplete="off" placeholder="Confirmar Senha">
+				<input type="submit" class="input-login" value="Cadastrar">
+			</div>
+			<div class="form-login" id="cadastroprofessor">
+				<input type="text" class="input" autocomplete="off" placeholder="Nome">
+				<input type="email" class="input" autocomplete="off" placeholder="E-mail">
+				<input type="text" class="input" autocomplete="off" placeholder="Código do Professor">
+				<input type="password" class="input" autocomplete="off" placeholder="Senha">
+				<input type="password" class="input" autocomplete="off" placeholder="Confirmar Senha">
+				<input type="submit" class="input-login" value="Cadastrar">
+			</div>
+		</div>
+	</section>
+
+	<script>
+		$("#aluno").click(function() {
+			$("#cadastroprofessor").fadeOut();
+			$("#cadastroaluno").delay("400").fadeIn();
+			$(this).addClass('active');
+			$("#professor").removeClass('active');
+		});
+		$("#professor").click(function() {
+			$(this).addClass('active');
+			$("#aluno").removeClass('active');
+			$("#cadastroprofessor").delay("400").fadeIn();
+			$("#cadastroaluno").fadeOut();
+		});
+	</script>
+</body>
