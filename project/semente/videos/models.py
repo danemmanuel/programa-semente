@@ -1,5 +1,6 @@
 from django.db import models
 from series.models import Serie
+from django.contrib.auth.models import User
 
 
 TIPO_VIDEO = (
@@ -17,3 +18,8 @@ class Video(models.Model):
 
     def __str__(self):
         return self.nome
+
+
+class VideoDegustacao(models.Model):
+    usuario = models.ForeignKey(User)
+    video = models.ForeignKey(Video)
