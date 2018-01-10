@@ -455,7 +455,7 @@ border-radius: 50%;
    	font-size: 20px;
    	color: #505050;
    }
-   .page-home{
+   .page-home, .page-arquivos{
    	float: left;
    	background-color: #f3f3f3;
    	width: 74.9%;
@@ -480,7 +480,7 @@ border-radius: 50%;
    	font-weight: bold;
    	position: relative;
    }
-   .videos .title:after{
+   .sake:after{
    	content: "";
    	position: absolute;
    	width: 55px;
@@ -489,7 +489,7 @@ border-radius: 50%;
    	background-position: center;
    	background-size: 100%;
    	background-repeat: no-repeat;
-   	top: 7px;
+   	top: 11px;
    	left: 0;
    }
    .painel .title:after{
@@ -627,4 +627,15 @@ color: #989898;
 text-transform: uppercase;
 font-size: 13px;
 font-family: 'Montserrat', sans-serif;
+   }
+   .marg{
+   	margin: 0 20px;
+   }
+   .itensvideo .imagem{
+   	background-size: 100%;
+   	background-position: center;
+   	background-repeat: no-repeat;
+   	width: 93%;
+   	height: 150px;
+   	margin: 0 auto;
    }

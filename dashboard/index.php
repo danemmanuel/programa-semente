@@ -32,7 +32,7 @@ require("includes/menu.php");
 
 	</div>
 	<div class="videos">
-		<div class="title">Vídeos</div>
+		<div class="title sake">Vídeos</div>
 		<div class="filtros">
 			
 			<div class="row-flex align-between">

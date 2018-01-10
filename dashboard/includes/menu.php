@@ -12,12 +12,12 @@
 	</div>
 
 	<div class="menuitens">
-		<a href="">
+		<a href="./index.php">
 			<div class="item home ">
 				Home
 			</div>
 		</a>
-		<a href="">
+		<a href="./arquivos.php">
 			<div class="item arquivos ">
 				Arquivos
 			</div>
