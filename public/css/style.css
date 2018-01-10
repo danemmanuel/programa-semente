@@ -807,3 +807,25 @@ color: #3c3c3c;
    	font-family: 'Montserrat', sans-serif;
    	font-weight: bold;
    }
+   .relatorios .subitens{
+   	display: none;
+   }
+   .relatorios:hover .subitens{
+   	display: block;
+   }
+   .ate{
+   	font-family: 'Montserrat', sans-serif;
+   	color: #ccc;
+   	text-align: center;
+   	font-weight: bold;
+   	margin-bottom: 20px;
+   }
+   .acessos{
+   	position: absolute;
+   		background-color: #7aad37;
+   	color: #fff;
+   	font-family: 'Montserrat', sans-serif;
+   	font-weight: bold;
+   	padding: 5px;
+   	margin-top: 10px;
+   }

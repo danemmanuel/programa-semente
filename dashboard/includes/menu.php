@@ -27,7 +27,7 @@
 				Marketing
 			</div>
 		</a>
-		<a href="">
+		<a href="./usuarios.php">
 			<div class="item usuarios ">
 				Usuários
 			</div>
@@ -35,6 +35,11 @@
 		<a href="">
 			<div class="item relatorios">
 				Relatórios
+				<div class="subitens">
+					<a href="./relatorios.php"><div class="item">Alunos</div></a>
+					<div class="item">Acesso</div>
+					<div class="item">Vídeos</div>
+				</div>
 			</div>
 		</a>
 		<a href="">
