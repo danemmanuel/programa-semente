@@ -483,6 +483,11 @@
    	background-color: #fff;
    	margin: 25px 0;
    }
+   .painel-materiais{
+   	padding: 30px 70px;
+   	margin-top: 40px;
+   	background-color: #fff;
+   }
    .subpainel{
    	padding: 20px 40px;
    	background-color: #fff;
@@ -788,7 +793,7 @@
    	margin: 5px 0;
    }
    .painel-usuarios .item .email{
-color: #3c3c3c;
+   	color: #3c3c3c;
    	font-size: 13px;
    	font-family: 'Montserrat', sans-serif;
    	font-weight: bold;
@@ -822,10 +827,67 @@ color: #3c3c3c;
    }
    .acessos{
    	position: absolute;
-   		background-color: #7aad37;
+   	background-color: #7aad37;
    	color: #fff;
    	font-family: 'Montserrat', sans-serif;
    	font-weight: bold;
    	padding: 5px;
    	margin-top: 10px;
+   }
+   .status .item{
+   	display: flex;
+   	flex-direction: column;
+   	justify-content: center;
+   	align-items: center;
+   }
+   .status .item.active{
+   	color: #7aad37;
+   }
+   .status .item.active .icon{
+
+   	background-color: #7aad37;
+
+   }
+   .status .item .icon{
+   	width: 50px;
+   	height: 50px;
+   	background-color: #929292;
+   	border-radius: 50%;
+   	color: #fff;
+   	display: flex;
+   	align-items: center;
+   	justify-content: center;
+   		font-family: 'Montserrat', sans-serif;
+   		font-weight: bold;
+   			font-size: 18px;
+
+   }
+   .preencha{
+   	font-family: 'Montserrat', sans-serif;
+   		margin: 50px 0;
+   			font-size: 18px;
+   			text-align: center;
+   }
+   .form1 .tit{
+   	color: #7aad37;
+   	font-size: 16px;
+   	font-family: 'Montserrat', sans-serif;
+   	font-weight: bold;
+
+   }
+   .status .item.active .text{
+   	color: #7aad37;
+   	font-family: 'Montserrat', sans-serif;
+   	font-weight: bold;
+   	font-size: 18px;
+   }
+   .status .item .text{
+   	color: #929292;
+   	font-family: 'Montserrat', sans-serif;
+   	font-weight: bold;
+   	font-size: 18px;
+   	margin: 10px 0;
+   }
+   .minmarg{
+   	margin-right: 20px;
    }

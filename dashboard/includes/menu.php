@@ -42,7 +42,7 @@
 				</div>
 			</div>
 		</a>
-		<a href="">
+		<a href="./materiais.php">
 			<div class="item materiais">
 				Pedidos de materiais
 			</div>
