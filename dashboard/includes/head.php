@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="../public/css/owl.theme.default.min.css">
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="../public/js/owl.carousel.min.js"></script>
+	<link rel="stylesheet" href="//cdn.materialdesignicons.com/2.1.19/css/materialdesignicons.min.css">
 
 </head>
 

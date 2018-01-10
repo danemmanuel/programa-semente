@@ -154,9 +154,20 @@
    .change{
    	display: flex;
    	justify-content: space-between;
+   	align-items: center;
+   }
+   .change .cr{
+   	color: #cacaca;
+   	color: #505050;
+   	font-family: 'Montserrat', sans-serif;
+   	padding-left: 10px;
+   	font-weight: bold;
    }
    .change .imaluno, .change .improfessor{
    	flex-basis: 48%;
+   }
+   .imaluno.new, .improfessor.new{
+   	flex-basis: 33% !important
    }
    .change .btn.active{
    	opacity: 1;
@@ -455,7 +466,7 @@
    	font-size: 20px;
    	color: #505050;
    }
-   .page-home, .page-arquivos{
+   .page-home, .page-arquivos, .page-marketing, .page-usuarios{
    	float: left;
    	background-color: #f3f3f3;
    	width: 74.9%;
@@ -734,5 +745,65 @@
    .itemsmarketing .item .title{
    	padding: 10px;
    	font-size: 14px;
+   	font-weight: bold;
+   }
+   .addusuario{
+   	margin-top: 40px;
+   	display: flex;
+   	align-items: center;
+   	padding: 15px;
+   	background-color: #7aad37;
+   	color: #fff;
+   	font-size: 18px;
+   	float: left;
+   	font-family: 'Montserrat', sans-serif;
+   	font-weight: bold;
+   }
+   .addusuario i{
+   	font-size: 30px;
+   	margin-right: 10px;
+   }
+   .painel-usuarios{
+   	background-color: #fff;
+   	padding: 30px 40px;
+   }
+   .painel-usuarios .item{
+   	display: flex;
+   	flex-direction: column;
+   	justify-content: center;
+   	align-items: center;
+   	margin: 30px 0;
+   }
+   .painel-usuarios .item .nome{
+   	color: #7aad37;
+   	font-size: 18px;
+   	font-family: 'Montserrat', sans-serif;
+   	font-weight: bold;
+   }
+   .painel-usuarios .item .desc{
+   	color: #333;
+   	font-size: 15px;
+   	font-family: 'Montserrat', sans-serif;
+   	font-weight: bold;
+   	margin: 5px 0;
+   }
+   .painel-usuarios .item .email{
+color: #3c3c3c;
+   	font-size: 13px;
+   	font-family: 'Montserrat', sans-serif;
+   	font-weight: bold;
+   	text-decoration: underline
+   }
+   .vejamais{
+   	display: flex;
+   	justify-content: center;
+   	width: 100%;
+   	margin-top: 50px;
+   }
+   .vejamais .bt{
+   	padding: 20px 30px;
+   	background-color: #7aad37;
+   	color: #fff;
+   	font-family: 'Montserrat', sans-serif;
    	font-weight: bold;
    }
