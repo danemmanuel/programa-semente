@@ -125,4 +125,28 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
+
+# Static files (CSS, JavaScript, Images)
+# https://docs.djangoproject.com/en/1.9/howto/static-files/
+
 STATIC_URL = '/static/'
+
+STATICFILES_DIRS = (
+            os.path.join(BASE_DIR, 'static'),
+            )
+
+DATE_FORMAT = '%d/%m/%Y'
+
+DATE_INPUT_FORMATS = (
+            '%d/%m/%Y',
+                '%Y-%m-%d',
+                )
+
+ACCOUNT_LOGIN_REDIRECT_URL = '/nao_conformidade/nova_ocorrencia/'
+
+ACCOUNT_LOGOUT_REDIRECT_URL = '/account/login/'
+
+SESSION_COOKIE_AGE = 1209900
+AUTO_LOGOUT = 52560000
+
+LOGIN_URL = '/account/login/'
