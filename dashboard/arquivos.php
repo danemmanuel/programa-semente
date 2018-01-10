@@ -111,9 +111,7 @@ require("includes/menu.php");
 <script>
 	$(document).ready(function(){
 		$(".arquivos").addClass('active');
-
 	});
-	
 </script>
 
 <?php 
