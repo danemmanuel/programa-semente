@@ -1,0 +1,38 @@
+{% load staticfiles %}
+<html lang="pt-br">
+<head>
+	<title>Programa semente</title>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+</head>
+
+
+<body>
+	<section class="page-login">
+		<div class="container-login">
+			<div class="logo">
+				<img src="public/img/logo.svg" alt="">
+			</div>
+			<div class="form-login">
+				<input type="email" class="input" autocomplete="off" placeholder="Email">
+				<input type="password" class="input" autocomplete="off" placeholder="Senha">
+				<input type="submit" class="input-login" value="Login">
+				<div class="esqueceuasenha">
+					<a href="#" class="esqueceuasenha">
+						Esqueceu senha senha?
+					</a>
+				</div>
+				<div class="cadastrese">
+					Ainda não tem cadastro? <span class="text-green">
+						<a href="#">Cadastre-se</a>
+					</span>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
