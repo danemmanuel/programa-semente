@@ -1,1 +1,2 @@
+<script type="text/javascript" src="../public/js/main.js"></script>
 </body>

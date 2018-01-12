@@ -64,8 +64,9 @@
 </div>
 
 <script>
-	$('#nav-icon3').click(function(){
-		$(this).toggleClass('open');
-	});
+	
+	
+
+
 
 </script>
