@@ -519,6 +519,32 @@
       background-color: #fff;
       margin: 25px 0;
    }
+   .painel-geral{
+      padding: 30px 30px;
+      background-color: #fff;
+      margin: 25px 0;
+      display: none;
+   }
+   .painel-geral .stats{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 40vh;
+      width: 100%;
+   }
+   .graphic{
+      text-align: center;
+      font-family: 'Montserrat', sans-serif;
+   }
+   .graphic h3{
+      color: #78ad37;
+      margin-bottom: 20px;
+      font-size: 36px;
+   }
+   .graphic p{
+      margin: 5px 0;
+      font-weight: bold;
+   }
    .painelgray{
    		padding: 30px 50px;
    	background-color: #f3f3f3;

@@ -183,6 +183,17 @@ require "includes/menu.php";
 			</div>
 		</div>
 	</div>
+
+	<div class="painel-geral">
+		<div class="stats">
+			<div class="graphic">
+				<h3>70%</h3>
+				<p><strong>Acessos:</strong> 7/10</p>
+				<p><strong>Externato Rio Branco 6º ano C</strong></p>
+			</div>
+		</div>
+	</div>
+
 </section>
 
 <script>
@@ -190,16 +201,16 @@ require "includes/menu.php";
 		$(".relatorios").addClass('active');
 
 		$("#aluno").click(function() {
-			$("#cadastroprofessor").fadeOut();
-			$("#cadastroaluno").delay("400").fadeIn();
+			$(".painel-usuarios").fadeOut();
+			$(".painel-geral").delay("400").fadeIn();
 			$(this).addClass('active');
 			$("#professor").removeClass('active');
 		});
 		$("#professor").click(function() {
 			$(this).addClass('active');
 			$("#aluno").removeClass('active');
-			$("#cadastroprofessor").delay("400").fadeIn();
-			$("#cadastroaluno").fadeOut();
+			$(".painel-usuarios").delay("400").fadeIn();
+			$(".painel-geral").fadeOut();
 		});
 
 	});
