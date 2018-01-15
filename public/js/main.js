@@ -4,3 +4,7 @@ $('#nav-icon3').click(function(){
 	$(".menuitens .item").text("");
 
 });
+
+$(document).ready(function(){
+
+});
