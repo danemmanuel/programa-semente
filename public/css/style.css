@@ -59,7 +59,10 @@
    svg{
    	max-width: 100%;
    }
-
+textarea{
+   width: 100%;
+   margin-top: 20px;
+}
    /*------- PAGE LOGIN ------- */
 
    .page-login{
