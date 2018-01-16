@@ -4,6 +4,9 @@ require("includes/head.php");
 require("includes/menu.php");
 
 ?>
+<script>
+	$(document).ready(function() { $("#e1").select2(); });
+</script>
 <section class="page-addvideo">
 	<div class="title sake">Adicionar Usuário</div>
 	<div class="painel-usuario">
@@ -39,14 +42,14 @@ require("includes/menu.php");
 				<input type="text" placeholder="Confirmar Senha" class="input">
 			</div>
 			<div class="itemi marg-y">
-				
-				<select name="" id="tipo" class="inputvideo">
+
+				<select id="e1" class="inputvideo">
 					<option value="" disabled selected="">Selecione uma escola</option>
-					<option value="">Autocontrole</option>
-					<option value="">Autoconhecimento</option>
-					<option value="">Empatia</option>
-					<option value="">Decisões Responsáveis</option>
-					<option value="">Habilidades Sociais</option>
+					<option value="">Colégio Fundamentum</option>
+					<option value="">Colégio Sete de Setembro</option>
+					<option value="">Anglo Taquaral</option>
+					<option value="">Anglo São José dos Campos</option>
+					<option value="">Colégio Assunção</option>
 				</select>
 			</div>
 			<div class="itemi marg-y">
@@ -70,20 +73,22 @@ require("includes/menu.php");
 
 </section>
 
-	<script>
-		$("#aluno").click(function() {
-			$("#cadastroprofessor").fadeOut();
-			$("#cadastroaluno").delay("400").fadeIn();
-			$(this).addClass('active');
-			$("#professor").removeClass('active');
-		});
-		$("#professor").click(function() {
-			$(this).addClass('active');
-			$("#aluno").removeClass('active');
-			$("#cadastroprofessor").delay("400").fadeIn();
-			$("#cadastroaluno").fadeOut();
-		});
-	</script>
+<script>
+
+
+	$("#aluno").click(function() {
+		$("#cadastroprofessor").fadeOut();
+		$("#cadastroaluno").delay("400").fadeIn();
+		$(this).addClass('active');
+		$("#professor").removeClass('active');
+	});
+	$("#professor").click(function() {
+		$(this).addClass('active');
+		$("#aluno").removeClass('active');
+		$("#cadastroprofessor").delay("400").fadeIn();
+		$("#cadastroaluno").fadeOut();
+	});
+</script>
 
 <?php 
 require("includes/footer.php");
