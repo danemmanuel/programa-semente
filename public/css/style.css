@@ -713,6 +713,9 @@
 .itemi-nome{
    flex-basis: 48%;
 }
+.itemi-nome-full{
+   flex-basis: 100%;
+}
 .itemi-estado{
    flex-basis: 20%;
 }
