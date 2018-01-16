@@ -7,7 +7,7 @@ require "includes/menu.php";
 <section class="page-usuarios">
 	<div class="title sake">Usuários</div>
 
-	<a href="">
+	<a href="./addusuario.php">
 		<div class="addusuario">
 			<i class="mdi mdi-account-circle"></i>  <!-- bell --> Adicionar usuário
 		</div>

@@ -35,10 +35,10 @@ require "includes/menu.php";
 				<label for="tipo" class="filterlabel">Filtros</label>
 				<select name="" id="tipo" class="inputvideo">
 					<option value="" disabled selected="">Ano</option>
-						<option value="">2015</option>
-						<option value="">2016</option>
-						<option value="">2017</option>
-						<option value="">2018</option>
+					<option value="">2015</option>
+					<option value="">2016</option>
+					<option value="">2017</option>
+					<option value="">2018</option>
 				</select>
 			</div>
 			<div class="l2 marg">
@@ -51,7 +51,7 @@ require "includes/menu.php";
 				</div>
 			</div>
 			<div class="l2 marg">
-		
+				
 				<input type="text" id="ate" class="input" autocomplete="off" placeholder="00/00/0000" style="margin:0 !important">
 			</div>
 
@@ -199,6 +199,8 @@ require "includes/menu.php";
 <script>
 	$(document).ready(function(){
 		$(".relatorios").addClass('active');
+		$(".painel-usuarios").fadeOut();
+		$(".painel-geral").delay("400").fadeIn();
 
 		$("#aluno").click(function() {
 			$(".painel-usuarios").fadeOut();
