@@ -68,7 +68,7 @@ require "includes/menu.php";
 
 <script>
 	$(document).ready(function(){
-		$(".usuarios").addClass('active');
+
 
 		$("#aluno").click(function() {
 			$("#cadastroprofessor").fadeOut();
