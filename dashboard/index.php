@@ -84,9 +84,9 @@ require("includes/menu.php");
 			<div class="row-flex">
 				<div class="l4">
 					<div class="video">
-							<iframe src="https://player.vimeo.com/video/242621505" width="100%" height="178" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-							
-						</div>
+						<iframe src="https://player.vimeo.com/video/242621505" width="100%" height="178" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+					</div>
 					<div class="item">
 						
 						<div class="tipo">Aluno</div>
@@ -96,9 +96,9 @@ require("includes/menu.php");
 				</div>
 				<div class="l4">
 					<div class="video">
-							<iframe src="https://player.vimeo.com/video/242621505" width="100%" height="178" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-							
-						</div>
+						<iframe src="https://player.vimeo.com/video/242621505" width="100%" height="178" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+					</div>
 					<div class="item">
 
 						<div class="tipo">Aluno</div>
@@ -108,9 +108,9 @@ require("includes/menu.php");
 				</div>
 				<div class="l4">
 					<div class="video">
-							<iframe src="https://player.vimeo.com/video/242621505" width="100%" height="178" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-							
-						</div>
+						<iframe src="https://player.vimeo.com/video/242621505" width="100%" height="178" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+					</div>
 					<div class="item">
 						
 						<div class="tipo">Aluno</div>
@@ -120,11 +120,11 @@ require("includes/menu.php");
 				</div>
 				<div class="l4">
 					<div class="video">
-							<iframe src="https://player.vimeo.com/video/242621505" width="100%" height="178" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-							
-						</div>
+						<iframe src="https://player.vimeo.com/video/242621505" width="100%" height="178" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+					</div>
 					<div class="item">
-					
+
 						<div class="tipo">Aluno</div>
 						<div class="escolaridade">6º Ano - Unidade 1 - Aula 01</div>
 						<div class="data">26 de janeiro de 2017</div>
@@ -132,9 +132,9 @@ require("includes/menu.php");
 				</div>
 				<div class="l4">
 					<div class="video">
-							<iframe src="https://player.vimeo.com/video/242621505" width="100%" height="178" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-							
-						</div>
+						<iframe src="https://player.vimeo.com/video/242621505" width="100%" height="178" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+					</div>
 					<div class="item">
 						
 						<div class="tipo">Aluno</div>
@@ -144,9 +144,9 @@ require("includes/menu.php");
 				</div>
 				<div class="l4">
 					<div class="video">
-							<iframe src="https://player.vimeo.com/video/242621505" width="100%" height="178" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-							
-						</div>
+						<iframe src="https://player.vimeo.com/video/242621505" width="100%" height="178" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+					</div>
 					<div class="item">
 						
 						<div class="tipo">Aluno</div>
@@ -158,8 +158,32 @@ require("includes/menu.php");
 		</div>
 	</div>
 </section>
+<div class="modal">
+	<div class="painel">
+		<div class="close">
+			<img src="../public/img/close.png" alt="">
+		</div>
+		<img src="../public/img/iconmodal.png" alt="">
+		<h3>Acessoria Pedagógica</h3>
+		<h2>Plantão de dúvidas</h2>
+
+		<p>
+			Os plantões de dúvidas a professores são oferecidos via Skype às quintas-feiras, das 10:00 às 12:00 e das 14:00 às 17:00. 
+			Adicione o contato contato@programasemente.com.br 
+		</p>
+		<p class="atencio">
+			Atenciosamente, <br>
+			Programa Semente
+		</p>
+	</div>
+</div>
 <script>
 	$(document).ready(function(){
+		$(".modal").fadeIn();
+		$(".close").click(function(event) {
+			$(".modal").fadeOut();
+		});
+
 		$(".home").addClass('active');
 		$('.owl-carousel').owlCarousel({
 			loop:true,

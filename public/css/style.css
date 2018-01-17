@@ -1666,3 +1666,54 @@ tr:nth-child(even){background-color: #f2f2f2}
 #formadm.view{
   display: flex;
 }
+.modal{
+  padding-top: 100px;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.77);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+.modal .painel{
+  width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+.modal .painel .close{
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+.modal .painel h3{
+font-size: 22px;
+color:#7aad37;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: bold;
+
+ margin-top: 30px;
+}
+.modal .painel h2{
+font-size: 30px;
+color:#7aad37;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: bold;
+ margin: 10px 0;
+}
+.modal .painel p{
+color: #5d5d5d;
+ font-family: 'Montserrat', sans-serif;
+ font-size: 18px;
+ line-height: 20px;
+ margin: 10px 0;
+}
+.atencio{
+  margin-top: 30px;
+}

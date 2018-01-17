@@ -6,6 +6,9 @@ require("includes/menu.php");
 ?>
 <script>
 	$(document).ready(function() { $("#e1").select2(); });
+	$(".js-example-basic-multiple-limit").select2({
+		maximumSelectionLength: 2
+	});
 </script>
 <section class="page-addvideo">
 	<div class="title sake">Adicionar Usuário</div>
@@ -83,7 +86,7 @@ require("includes/menu.php");
 		</div>
 
 
-			<div class="row-flex align-between formaddusuario" id="formgestor">
+		<div class="row-flex align-between formaddusuario" id="formgestor">
 			<div class="itemi">
 				<label for="" class="filterlabel">Nome</label>
 				<input type="text" class="input">
@@ -142,7 +145,7 @@ require("includes/menu.php");
 			</div>
 			<div class="itemi marg-y">
 
-				<select id="e1" class="inputvideo">
+				<select id="js-example-basic-multiple-limit" class="inputvideo">
 					<option value="" disabled selected="">Selecione uma escola</option>
 					<option value="">Colégio Fundamentum</option>
 					<option value="">Colégio Sete de Setembro</option>
@@ -255,7 +258,7 @@ require("includes/menu.php");
 
 <script>
 
-$("#formprofessor").addClass('view');
+	$("#formprofessor").addClass('view');
 	$("#aluno").click(function() {
 		$(this).addClass('active');
 		$("#professor").removeClass('active');
