@@ -1636,3 +1636,33 @@ td i{
 }
 
 tr:nth-child(even){background-color: #f2f2f2}
+#formaluno{
+  display: none;
+}
+#formprofessor{
+  display: none;
+}
+#formaluno.view{
+  display: flex;
+}
+#formprofessor.view{
+  display: flex;
+}
+#formgestor{
+  display: none;
+}
+#formgestor.view{
+  display: flex;
+}
+#formdiretor{
+  display: none;
+}
+#formdiretor.view{
+  display: flex;
+}
+#formadm{
+  display: none;
+}
+#formadm.view{
+  display: flex;
+}
