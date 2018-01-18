@@ -15,7 +15,7 @@ require("includes/menu.php");
 					<span class="date">16 de janeiro</span>
 				</div>
 				<div class="conteudo">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.Ut enim ad minim veniam, quis nostrud exercitation ullamcos laboris nisis ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore egiat nulla pariatur.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.Ut enim ad minim veniam, quis nostrud exercitation ullamcos laboris nisis ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore egiat nulla pariatur.
 				</div>
 			</div>
 			<div class="item">
@@ -24,7 +24,7 @@ require("includes/menu.php");
 					<span class="date">16 de janeiro</span>
 				</div>
 				<div class="conteudo">
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.Ut enim ad minim veniam, quis nostrud exercitation ullamcos laboris nisis ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore egiat nulla pariatur.
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore. Ut enim ad minim veniam, quis nostrud exercitation ullamcos laboris nisis ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore egiat nulla pariatur.
 				</div>
 			</div>
 
