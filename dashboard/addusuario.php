@@ -6,9 +6,6 @@ require("includes/menu.php");
 ?>
 <script>
 	$(document).ready(function() { $("#e1").select2(); });
-	$(".js-example-basic-multiple-limit").select2({
-		maximumSelectionLength: 2
-	});
 </script>
 <section class="page-addvideo">
 	<div class="title sake">Adicionar Usuário</div>

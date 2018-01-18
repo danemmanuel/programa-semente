@@ -14,37 +14,61 @@
 	<div class="menuitens">
 		<a href="./index.php">
 			<div class="item home ">
-				Home
+				<i class="mdi mdi-view-dashboard"></i> Home
+			</div>
+		</a>
+		<a href="#">
+			<div class="item escolas">
+				<i class="mdi mdi-home"></i> Escolas
+			</div>
+		</a>
+		<a href="#">
+			<div class="item anos">
+				<i class="mdi mdi-timetable"></i> Anos
+			</div>
+		</a>
+		<a href="#">
+			<div class="item classes">
+				<i class="mdi mdi-account-multiple"></i> Classes
+			</div>
+		</a>
+		<a href="#">
+			<div class="item videos">
+				<i class="mdi mdi-youtube-play"></i> Vídeos
 			</div>
 		</a>
 		<a href="./arquivos.php">
 			<div class="item arquivos ">
-				Arquivos
+				<i class="mdi mdi-file-document"></i> Arquivos
+			</div>
+		</a>
+		<a href="#">
+			<div class="item avisos">
+				<i class="mdi mdi-bell"></i> Avisos
 			</div>
 		</a>
 		<a href="./marketing.php">
 			<div class="item marketing ">
-				Marketing
+				<i class="mdi mdi-lead-pencil"></i> Marketing
 			</div>
 		</a>
 		<a href="./usuarios.php">
 			<div class="item usuarios ">
-				Usuários
+				<i class="mdi mdi-account"></i> Usuários
 			</div>
 		</a>
 		<a href="">
 			<div class="item relatorios">
-				Relatórios
+				<i class="mdi mdi-chart-pie"></i> Relatórios
 				<div class="subitens">
-					<a href="./relatorios.php"><div class="item">Alunos</div></a>
-					<div class="item">Acesso</div>
-					<div class="item">Vídeos</div>
+					<a href="./relatorios.php"><div class="item sub-item">Alunos</div></a>
+					<a href="./relatorios.php"><div class="item sub-item">Professores</div></a>
 				</div>
 			</div>
 		</a>
 		<a href="./materiais.php">
 			<div class="item materiais">
-				Pedidos de materiais
+				<i class="mdi mdi-archive"></i> Pedidos de materiais
 			</div>
 		</a>
 	</div>
