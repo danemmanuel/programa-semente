@@ -4,9 +4,7 @@ require("includes/head.php");
 require("includes/menu.php");
 
 ?>
-<script>
-	$(document).ready(function() { $("#e1").select2(); });
-</script>
+
 <section class="page-addvideo">
 	<div class="title sake">Adicionar Usuário</div>
 	<div class="painel-usuario">
@@ -58,7 +56,7 @@ require("includes/menu.php");
 			</div>
 			<div class="itemi marg-y">
 
-				<select id="e1" class="inputvideo">
+				<select>
 					<option value="" disabled selected="">Selecione uma escola</option>
 					<option value="">Colégio Fundamentum</option>
 					<option value="">Colégio Sete de Setembro</option>
@@ -100,7 +98,7 @@ require("includes/menu.php");
 			</div>
 			<div class="itemi marg-y">
 
-				<select id="e1" class="inputvideo">
+				<select>
 					<option value="" disabled selected="">Selecione uma escola</option>
 					<option value="">Colégio Fundamentum</option>
 					<option value="">Colégio Sete de Setembro</option>
@@ -142,7 +140,7 @@ require("includes/menu.php");
 			</div>
 			<div class="itemi marg-y">
 
-				<select id="js-example-basic-multiple-limit" class="inputvideo">
+				<select multiple>
 					<option value="" disabled selected="">Selecione uma escola</option>
 					<option value="">Colégio Fundamentum</option>
 					<option value="">Colégio Sete de Setembro</option>
@@ -215,14 +213,15 @@ require("includes/menu.php");
 				<input type="text" placeholder="Confirmar Senha" class="input">
 			</div>
 			<div class="itemi marg-y">
-				<select id="e1" class="inputvideo">
-					<option value="" disabled selected="">Selecione uma escola</option>
-					<option value="">Colégio Fundamentum</option>
-					<option value="">Colégio Sete de Setembro</option>
-					<option value="">Anglo Taquaral</option>
-					<option value="">Anglo São José dos Campos</option>
-					<option value="">Colégio Assunção</option>
-				</select>
+				<div class="input-field">
+					<select disabled>
+						<option value="" disabled selected>Choose your option</option>
+						<option value="1">Option 1</option>
+						<option value="2">Option 2</option>
+						<option value="3">Option 3</option>
+					</select>
+					<label>Materialize Disabled</label>
+				</div>
 			</div>
 			<div class="itemi">
 				<label for="" class="filterlabel">Ano</label>
@@ -254,7 +253,9 @@ require("includes/menu.php");
 </section>
 
 <script>
-
+	$(document).ready(function() {
+		$('select').material_select();
+	});
 	$("#formprofessor").addClass('view');
 	$("#aluno").click(function() {
 		$(this).addClass('active');

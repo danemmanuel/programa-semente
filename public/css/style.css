@@ -1703,3 +1703,16 @@ tr:nth-child(even){background-color: #f2f2f2}
   height: 20px;
   background-color: red;
 }
+.select-wrapper + label:after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  opacity: 0;
+  -webkit-transition: .2s opacity ease-out, .2s color ease-out;
+  transition: .2s opacity ease-out, .2s color ease-out;
+}
+.input-field.inline .select-dropdown {
+  margin-bottom: 1rem;
+}

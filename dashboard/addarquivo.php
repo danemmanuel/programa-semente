@@ -36,7 +36,7 @@ require("includes/menu.php");
 			</div>
 			
 
-		<div class="itemi marg-y">
+			<div class="itemi marg-y">
 				<input type="checkbox" id="test2" checked="checked" />
 				<label for="test2">Material Complementar?</label>
 			</div>
