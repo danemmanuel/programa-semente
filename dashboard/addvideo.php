@@ -19,7 +19,7 @@ require("includes/menu.php");
 				</div>
 				<div class="l5 inputed">
 					
-					<select name="" id="tipo" class="inputvideo">
+					<select name="" id="tipo">
 						<option value="" disabled selected="">Tipo do vídeo</option>
 						<option value="">Vídeo para alunos</option>
 						<option value="">Vídeo para professores</option>
@@ -27,7 +27,7 @@ require("includes/menu.php");
 				</div>
 				<div class="l5 inputed">
 				
-					<select name="" id="tipo" class="inputvideo">
+					<select name="" id="tipo">
 						<option value="" disabled selected="">Ano</option>
 						<option value="">6º ano</option>
 						<option value="">7º ano</option>
@@ -45,6 +45,17 @@ require("includes/menu.php");
 						<option value="">Médio 3º ano</option>
 					</select>
 				</div>
+				<div class="l10 inputed">
+				
+					<select name="" id="tipo">
+						<option value="" disabled selected="">Categoria</option>
+						<option value="">Categoria 1</option>
+						<option value="">Categoria 2</option>
+						<option value="">Categoria 3</option>
+						<option value="">Categoria 4</option>
+						<option value="">Categoria 5</option>
+					</select>
+				</div>
 				<div class="l3 inputed">
 					<input type="submit" class="input-login" value="Cadastrar">
 				</div>
@@ -56,6 +67,11 @@ require("includes/menu.php");
 	</div>
 </section>
 
+<script>
+	$(document).ready(function() {
+		$('select').material_select();
+	});
+</script>
 <?php 
 require("includes/footer.php");
 
