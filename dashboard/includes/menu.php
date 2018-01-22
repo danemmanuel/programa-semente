@@ -80,17 +80,33 @@
 		</form>
 	</div>
 	<div class="user">
-		<div class="avatar">
-		<img src="../public/img/profile.jpg" alt="">
-		</div>
-		<div class="name">Olá, Aline!</div>
+		<a class='dropdown-button' href='#' data-activates='dropdown1'>
+			<div class="avatar">
+				<img src="../public/img/profile.jpg" alt="">
+			</div>
+			<div class="name">Olá, Aline!</div>
+		</a>
+		<ul id='dropdown1' class='dropdown-content'>
+			<li><a href="#!"><i class="mdi mdi-account"></i> Editar Perfil</a></li>
+			<li><a href="#!"><i class="mdi mdi-logout"></i> Sair</a></li>
+		</ul>
 	</div>
 </div>
 
 <script>
 	
 	
-
+	$('.dropdown-button').dropdown({
+		inDuration: 300,
+		outDuration: 225,
+      constrainWidth: false, // Does not change width of dropdown to that of the activator
+      hover: true, // Activate on hover
+      gutter: 0, // Spacing from edge
+      belowOrigin: false, // Displays dropdown below the button
+      alignment: 'left', // Displays dropdown with edge aligned to the left of button
+      stopPropagation: false // Stops event propagation
+  }
+  );
 
 
 </script>

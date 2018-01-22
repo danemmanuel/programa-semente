@@ -890,7 +890,18 @@ font-size: 25px;
  left: 19%;
  background-color: #fff;
 }
-.navheader .user{
+.dropdown-content{
+  
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+.dropdown-content li a{
+  color: #78ad37 !important;
+}
+.dropdown-content li a i{
+  font-size: 28px;
+}
+.navheader .user .dropdown-button{
   float: right;
   background-color: #78ad37;
   height: 100%;
