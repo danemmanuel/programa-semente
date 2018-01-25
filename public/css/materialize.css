@@ -96,15 +96,15 @@
  * Released under the MIT license
  * https://github.com/fians/Waves/blob/master/LICENSE
  */
-.waves-effect {
+ .waves-effect {
   position: relative;
   cursor: pointer;
   display: inline-block;
   overflow: hidden;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   -webkit-tap-highlight-color: transparent;
   vertical-align: middle;
   z-index: 1;
@@ -128,7 +128,7 @@
   transition-property: transform, opacity;
   transition-property: transform, opacity, -webkit-transform;
   -webkit-transform: scale(0);
-          transform: scale(0);
+  transform: scale(0);
   pointer-events: none;
 }
 
@@ -180,7 +180,7 @@
 
 .waves-circle {
   -webkit-transform: translateZ(0);
-          transform: translateZ(0);
+  transform: translateZ(0);
   -webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
 }
 
@@ -221,7 +221,7 @@ label {
 }
 
 /* Text Inputs + Textarea
-   ========================================================================== */
+========================================================================== */
 /* Style Placeholders */
 ::-webkit-input-placeholder {
   color: #d1d1d1;
@@ -358,18 +358,18 @@ textarea.materialize-textarea + label:after, .select-wrapper + label:after {
   transition: transform .2s ease-out;
   transition: transform .2s ease-out, -webkit-transform .2s ease-out;
   -webkit-transform-origin: 0% 100%;
-          transform-origin: 0% 100%;
+  transform-origin: 0% 100%;
   text-align: initial;
   -webkit-transform: translateY(12px);
-          transform: translateY(12px);
+  transform: translateY(12px);
   pointer-events: none;
 }
 
 .input-field label:not(.label-icon).active {
   -webkit-transform: translateY(-14px) scale(0.8);
-          transform: translateY(-14px) scale(0.8);
+  transform: translateY(-14px) scale(0.8);
   -webkit-transform-origin: 0 0;
-          transform-origin: 0 0;
+  transform-origin: 0 0;
 }
 
 .input-field .prefix {
@@ -424,14 +424,14 @@ textarea.materialize-textarea + label:after, .select-wrapper + label:after {
   width: calc(100% - 4rem);
   border: 0;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
 
 .input-field input[type=search]:focus {
   background-color: #fff;
   border: 0;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   color: #444;
 }
 
@@ -483,7 +483,7 @@ textarea.materialize-textarea.validate + label::after {
 
 textarea.materialize-textarea.validate + label:not(.label-icon).active {
   -webkit-transform: translateY(-25px);
-          transform: translateY(-25px);
+  transform: translateY(-25px);
 }
 
 .hiddendiv {
@@ -519,14 +519,14 @@ textarea.materialize-textarea.validate + label:not(.label-icon).active {
 
 
 /* Switch
-   ========================================================================== */
+========================================================================== */
 .switch,
 .switch * {
   -webkit-tap-highlight-color: transparent;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .switch label {
@@ -588,20 +588,20 @@ textarea.materialize-textarea.validate + label:not(.label-icon).active {
 .switch label .lever:after {
   background-color: #F1F1F1;
   -webkit-box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
-          box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
 }
 
 input[type=checkbox]:checked:not(:disabled) ~ .lever:active::before,
 input[type=checkbox]:checked:not(:disabled).tabbed:focus ~ .lever::before {
   -webkit-transform: scale(2.4);
-          transform: scale(2.4);
+  transform: scale(2.4);
   background-color: rgba(38, 166, 154, 0.15);
 }
 
 input[type=checkbox]:not(:disabled) ~ .lever:active:before,
 input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::before {
   -webkit-transform: scale(2.4);
-          transform: scale(2.4);
+  transform: scale(2.4);
   background-color: rgba(0, 0, 0, 0.08);
 }
 
@@ -616,7 +616,7 @@ input[type=checkbox]:not(:disabled).tabbed:focus ~ .lever::before {
 }
 
 /* Select Field
-   ========================================================================== */
+========================================================================== */
 select {
   display: none;
 }
@@ -674,9 +674,9 @@ select {
   padding: 0;
   display: block;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .select-wrapper span.caret {
@@ -710,9 +710,9 @@ select:disabled {
   color: rgba(0, 0, 0, 0.42);
   cursor: default;
   -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .select-wrapper i {
@@ -772,7 +772,7 @@ select:disabled {
 }
 
 /* File Input
-   ========================================================================== */
+========================================================================== */
 .file-field {
   position: relative;
 }
@@ -816,7 +816,7 @@ select:disabled {
 }
 
 /* Range
-   ========================================================================== */
+========================================================================== */
 .range-field {
   position: relative;
 }
@@ -851,9 +851,9 @@ input[type=range] + .thumb {
   background-color: #26a69a;
   margin-left: 7px;
   -webkit-transform-origin: 50% 50%;
-          transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
   -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 
 input[type=range] + .thumb .value {
@@ -863,7 +863,7 @@ input[type=range] + .thumb .value {
   color: #26a69a;
   font-size: 0;
   -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 
 input[type=range] + .thumb.active {
@@ -895,7 +895,7 @@ input[type=range]::-webkit-slider-thumb {
   border-radius: 50%;
   background-color: #26a69a;
   -webkit-transform-origin: 50% 50%;
-          transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
   margin: -5px 0 0 0;
   -webkit-transition: .3s;
   transition: .3s;
@@ -970,268 +970,268 @@ input[type=range]:focus::-ms-fill-upper {
 
 /***************
     Nav List
-***************/
-.table-of-contents.fixed {
-  position: fixed;
-}
+    ***************/
+    .table-of-contents.fixed {
+      position: fixed;
+    }
 
-.table-of-contents li {
-  padding: 2px 0;
-}
+    .table-of-contents li {
+      padding: 2px 0;
+    }
 
-.table-of-contents a {
-  display: inline-block;
-  font-weight: 300;
-  color: #757575;
-  padding-left: 20px;
-  height: 1.5rem;
-  line-height: 1.5rem;
-  letter-spacing: .4;
-  display: inline-block;
-}
+    .table-of-contents a {
+      display: inline-block;
+      font-weight: 300;
+      color: #757575;
+      padding-left: 20px;
+      height: 1.5rem;
+      line-height: 1.5rem;
+      letter-spacing: .4;
+      display: inline-block;
+    }
 
-.table-of-contents a:hover {
-  color: #a8a8a8;
-  padding-left: 19px;
-  border-left: 1px solid #ee6e73;
-}
+    .table-of-contents a:hover {
+      color: #a8a8a8;
+      padding-left: 19px;
+      border-left: 1px solid #ee6e73;
+    }
 
-.table-of-contents a.active {
-  font-weight: 500;
-  padding-left: 18px;
-  border-left: 2px solid #ee6e73;
-}
+    .table-of-contents a.active {
+      font-weight: 500;
+      padding-left: 18px;
+      border-left: 2px solid #ee6e73;
+    }
 
-.side-nav {
-  position: fixed;
-  width: 300px;
-  left: 0;
-  top: 0;
-  margin: 0;
-  -webkit-transform: translateX(-100%);
-          transform: translateX(-100%);
-  height: 100%;
-  height: calc(100% + 60px);
-  height: -moz-calc(100%);
-  padding-bottom: 60px;
-  background-color: #fff;
-  z-index: 999;
-  overflow-y: auto;
-  will-change: transform;
-  -webkit-backface-visibility: hidden;
-          backface-visibility: hidden;
-  -webkit-transform: translateX(-105%);
-          transform: translateX(-105%);
-}
+    .side-nav {
+      position: fixed;
+      width: 300px;
+      left: 0;
+      top: 0;
+      margin: 0;
+      -webkit-transform: translateX(-100%);
+      transform: translateX(-100%);
+      height: 100%;
+      height: calc(100% + 60px);
+      height: -moz-calc(100%);
+      padding-bottom: 60px;
+      background-color: #fff;
+      z-index: 999;
+      overflow-y: auto;
+      will-change: transform;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+      -webkit-transform: translateX(-105%);
+      transform: translateX(-105%);
+    }
 
-.side-nav.right-aligned {
-  right: 0;
-  -webkit-transform: translateX(105%);
-          transform: translateX(105%);
-  left: auto;
-  -webkit-transform: translateX(100%);
-          transform: translateX(100%);
-}
+    .side-nav.right-aligned {
+      right: 0;
+      -webkit-transform: translateX(105%);
+      transform: translateX(105%);
+      left: auto;
+      -webkit-transform: translateX(100%);
+      transform: translateX(100%);
+    }
 
-.side-nav .collapsible {
-  margin: 0;
-}
+    .side-nav .collapsible {
+      margin: 0;
+    }
 
-.side-nav li {
-  float: none;
-  line-height: 48px;
-}
+    .side-nav li {
+      float: none;
+      line-height: 48px;
+    }
 
-.side-nav li.active {
-  background-color: rgba(0, 0, 0, 0.05);
-}
+    .side-nav li.active {
+      background-color: rgba(0, 0, 0, 0.05);
+    }
 
-.side-nav li > a {
-  color: rgba(0, 0, 0, 0.87);
-  display: block;
-  font-size: 14px;
-  font-weight: 500;
-  height: 48px;
-  line-height: 48px;
-  padding: 0 32px;
-}
+    .side-nav li > a {
+      color: rgba(0, 0, 0, 0.87);
+      display: block;
+      font-size: 14px;
+      font-weight: 500;
+      height: 48px;
+      line-height: 48px;
+      padding: 0 32px;
+    }
 
-.side-nav li > a:hover {
-  background-color: rgba(0, 0, 0, 0.05);
-}
+    .side-nav li > a:hover {
+      background-color: rgba(0, 0, 0, 0.05);
+    }
 
-.side-nav li > a.btn, .side-nav li > a.btn-large, .side-nav li > a.btn-large, .side-nav li > a.btn-flat, .side-nav li > a.btn-floating {
-  margin: 10px 15px;
-}
+    .side-nav li > a.btn, .side-nav li > a.btn-large, .side-nav li > a.btn-large, .side-nav li > a.btn-flat, .side-nav li > a.btn-floating {
+      margin: 10px 15px;
+    }
 
-.side-nav li > a.btn, .side-nav li > a.btn-large, .side-nav li > a.btn-large, .side-nav li > a.btn-floating {
-  color: #fff;
-}
+    .side-nav li > a.btn, .side-nav li > a.btn-large, .side-nav li > a.btn-large, .side-nav li > a.btn-floating {
+      color: #fff;
+    }
 
-.side-nav li > a.btn-flat {
-  color: #343434;
-}
+    .side-nav li > a.btn-flat {
+      color: #343434;
+    }
 
-.side-nav li > a.btn:hover, .side-nav li > a.btn-large:hover, .side-nav li > a.btn-large:hover {
-  background-color: #2bbbad;
-}
+    .side-nav li > a.btn:hover, .side-nav li > a.btn-large:hover, .side-nav li > a.btn-large:hover {
+      background-color: #2bbbad;
+    }
 
-.side-nav li > a.btn-floating:hover {
-  background-color: #26a69a;
-}
+    .side-nav li > a.btn-floating:hover {
+      background-color: #26a69a;
+    }
 
-.side-nav li > a > i,
-.side-nav li > a > [class^="mdi-"], .side-nav li > a li > a > [class*="mdi-"],
-.side-nav li > a > i.material-icons {
-  float: left;
-  height: 48px;
-  line-height: 48px;
-  margin: 0 32px 0 0;
-  width: 24px;
-  color: rgba(0, 0, 0, 0.54);
-}
+    .side-nav li > a > i,
+    .side-nav li > a > [class^="mdi-"], .side-nav li > a li > a > [class*="mdi-"],
+    .side-nav li > a > i.material-icons {
+      float: left;
+      height: 48px;
+      line-height: 48px;
+      margin: 0 32px 0 0;
+      width: 24px;
+      color: rgba(0, 0, 0, 0.54);
+    }
 
-.side-nav .divider {
-  margin: 8px 0 0 0;
-}
+    .side-nav .divider {
+      margin: 8px 0 0 0;
+    }
 
-.side-nav .subheader {
-  cursor: initial;
-  pointer-events: none;
-  color: rgba(0, 0, 0, 0.54);
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 48px;
-}
+    .side-nav .subheader {
+      cursor: initial;
+      pointer-events: none;
+      color: rgba(0, 0, 0, 0.54);
+      font-size: 14px;
+      font-weight: 500;
+      line-height: 48px;
+    }
 
-.side-nav .subheader:hover {
-  background-color: transparent;
-}
+    .side-nav .subheader:hover {
+      background-color: transparent;
+    }
 
-.side-nav .user-view,
-.side-nav .userView {
-  position: relative;
-  padding: 32px 32px 0;
-  margin-bottom: 8px;
-}
+    .side-nav .user-view,
+    .side-nav .userView {
+      position: relative;
+      padding: 32px 32px 0;
+      margin-bottom: 8px;
+    }
 
-.side-nav .user-view > a,
-.side-nav .userView > a {
-  height: auto;
-  padding: 0;
-}
+    .side-nav .user-view > a,
+    .side-nav .userView > a {
+      height: auto;
+      padding: 0;
+    }
 
-.side-nav .user-view > a:hover,
-.side-nav .userView > a:hover {
-  background-color: transparent;
-}
+    .side-nav .user-view > a:hover,
+    .side-nav .userView > a:hover {
+      background-color: transparent;
+    }
 
-.side-nav .user-view .background,
-.side-nav .userView .background {
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: -1;
-}
+    .side-nav .user-view .background,
+    .side-nav .userView .background {
+      overflow: hidden;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      z-index: -1;
+    }
 
-.side-nav .user-view .circle, .side-nav .user-view .name, .side-nav .user-view .email,
-.side-nav .userView .circle,
-.side-nav .userView .name,
-.side-nav .userView .email {
-  display: block;
-}
+    .side-nav .user-view .circle, .side-nav .user-view .name, .side-nav .user-view .email,
+    .side-nav .userView .circle,
+    .side-nav .userView .name,
+    .side-nav .userView .email {
+      display: block;
+    }
 
-.side-nav .user-view .circle,
-.side-nav .userView .circle {
-  height: 64px;
-  width: 64px;
-}
+    .side-nav .user-view .circle,
+    .side-nav .userView .circle {
+      height: 64px;
+      width: 64px;
+    }
 
-.side-nav .user-view .name,
-.side-nav .user-view .email,
-.side-nav .userView .name,
-.side-nav .userView .email {
-  font-size: 14px;
-  line-height: 24px;
-}
+    .side-nav .user-view .name,
+    .side-nav .user-view .email,
+    .side-nav .userView .name,
+    .side-nav .userView .email {
+      font-size: 14px;
+      line-height: 24px;
+    }
 
-.side-nav .user-view .name,
-.side-nav .userView .name {
-  margin-top: 16px;
-  font-weight: 500;
-}
+    .side-nav .user-view .name,
+    .side-nav .userView .name {
+      margin-top: 16px;
+      font-weight: 500;
+    }
 
-.side-nav .user-view .email,
-.side-nav .userView .email {
-  padding-bottom: 16px;
-  font-weight: 400;
-}
+    .side-nav .user-view .email,
+    .side-nav .userView .email {
+      padding-bottom: 16px;
+      font-weight: 400;
+    }
 
-.drag-target {
-  height: 100%;
-  width: 10px;
-  position: fixed;
-  top: 0;
-  z-index: 998;
-}
+    .drag-target {
+      height: 100%;
+      width: 10px;
+      position: fixed;
+      top: 0;
+      z-index: 998;
+    }
 
-.side-nav.fixed {
-  left: 0;
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
-  position: fixed;
-}
+    .side-nav.fixed {
+      left: 0;
+      -webkit-transform: translateX(0);
+      transform: translateX(0);
+      position: fixed;
+    }
 
-.side-nav.fixed.right-aligned {
-  right: 0;
-  left: auto;
-}
+    .side-nav.fixed.right-aligned {
+      right: 0;
+      left: auto;
+    }
 
-@media only screen and (max-width: 992px) {
-  .side-nav.fixed {
-    -webkit-transform: translateX(-105%);
-            transform: translateX(-105%);
-  }
-  .side-nav.fixed.right-aligned {
-    -webkit-transform: translateX(105%);
-            transform: translateX(105%);
-  }
-  .side-nav a {
-    padding: 0 16px;
-  }
-  .side-nav .user-view,
-  .side-nav .userView {
-    padding: 16px 16px 0;
-  }
-}
+    @media only screen and (max-width: 992px) {
+      .side-nav.fixed {
+        -webkit-transform: translateX(-105%);
+        transform: translateX(-105%);
+      }
+      .side-nav.fixed.right-aligned {
+        -webkit-transform: translateX(105%);
+        transform: translateX(105%);
+      }
+      .side-nav a {
+        padding: 0 16px;
+      }
+      .side-nav .user-view,
+      .side-nav .userView {
+        padding: 16px 16px 0;
+      }
+    }
 
-.side-nav .collapsible-body > ul:not(.collapsible) > li.active,
-.side-nav.fixed .collapsible-body > ul:not(.collapsible) > li.active {
-  background-color: #ee6e73;
-}
+    .side-nav .collapsible-body > ul:not(.collapsible) > li.active,
+    .side-nav.fixed .collapsible-body > ul:not(.collapsible) > li.active {
+      background-color: #ee6e73;
+    }
 
-.side-nav .collapsible-body > ul:not(.collapsible) > li.active a,
-.side-nav.fixed .collapsible-body > ul:not(.collapsible) > li.active a {
-  color: #fff;
-}
+    .side-nav .collapsible-body > ul:not(.collapsible) > li.active a,
+    .side-nav.fixed .collapsible-body > ul:not(.collapsible) > li.active a {
+      color: #fff;
+    }
 
-.side-nav .collapsible-body {
-  padding: 0;
-}
+    .side-nav .collapsible-body {
+      padding: 0;
+    }
 
-#sidenav-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 120vh;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 997;
-  will-change: opacity;
-}
+    #sidenav-overlay {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 120vh;
+      background-color: rgba(0, 0, 0, 0.5);
+      z-index: 997;
+      will-change: opacity;
+    }
 
 /*
     @license
@@ -1241,10 +1241,10 @@ input[type=range]:focus::-ms-fill-upper {
     The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
     Code distributed by Google as part of the polymer project is also
     subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
- */
-/**************************/
-/* STYLES FOR THE SPINNER */
-/**************************/
+    */
+    /**************************/
+    /* STYLES FOR THE SPINNER */
+    /**************************/
 /*
  * Constants:
  *      STROKEWIDTH = 3px
@@ -1258,7 +1258,7 @@ input[type=range]:focus::-ms-fill-upper {
  *      CONTAINERWIDTH = 28px
  *      SHRINK_TIME = 400ms
  */
-.preloader-wrapper {
+ .preloader-wrapper {
   display: inline-block;
   position: relative;
   width: 50px;
@@ -1290,7 +1290,7 @@ input[type=range]:focus::-ms-fill-upper {
 @keyframes container-rotate {
   to {
     -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
@@ -1335,7 +1335,7 @@ input[type=range]:focus::-ms-fill-upper {
  * specific properties properly, treats them as -webkit-animation, and overrides the
  * other animation rules. See https://github.com/Polymer/platform/issues/53.
  */
-.active .spinner-layer.spinner-blue {
+ .active .spinner-layer.spinner-blue {
   /* durations: 4 * ARCTIME */
   -webkit-animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, blue-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
   animation: fill-unfill-rotate 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both, blue-fade-in-out 5332ms cubic-bezier(0.4, 0, 0.2, 1) infinite both;
@@ -1408,42 +1408,42 @@ input[type=range]:focus::-ms-fill-upper {
 @keyframes fill-unfill-rotate {
   12.5% {
     -webkit-transform: rotate(135deg);
-            transform: rotate(135deg);
+    transform: rotate(135deg);
   }
   /* 0.5 * ARCSIZE */
   25% {
     -webkit-transform: rotate(270deg);
-            transform: rotate(270deg);
+    transform: rotate(270deg);
   }
   /* 1   * ARCSIZE */
   37.5% {
     -webkit-transform: rotate(405deg);
-            transform: rotate(405deg);
+    transform: rotate(405deg);
   }
   /* 1.5 * ARCSIZE */
   50% {
     -webkit-transform: rotate(540deg);
-            transform: rotate(540deg);
+    transform: rotate(540deg);
   }
   /* 2   * ARCSIZE */
   62.5% {
     -webkit-transform: rotate(675deg);
-            transform: rotate(675deg);
+    transform: rotate(675deg);
   }
   /* 2.5 * ARCSIZE */
   75% {
     -webkit-transform: rotate(810deg);
-            transform: rotate(810deg);
+    transform: rotate(810deg);
   }
   /* 3   * ARCSIZE */
   87.5% {
     -webkit-transform: rotate(945deg);
-            transform: rotate(945deg);
+    transform: rotate(945deg);
   }
   /* 3.5 * ARCSIZE */
   to {
     -webkit-transform: rotate(1080deg);
-            transform: rotate(1080deg);
+    transform: rotate(1080deg);
   }
   /* 4   * ARCSIZE */
 }
@@ -1602,7 +1602,7 @@ input[type=range]:focus::-ms-fill-upper {
  * Patch the gap that appear between the two adjacent div.circle-clipper while the
  * spinner is rotating (appears on Chrome 38, Safari 7.1, and IE 11).
  */
-.gap-patch {
+ .gap-patch {
   position: absolute;
   top: 0;
   left: 45%;
@@ -1684,15 +1684,15 @@ input[type=range]:focus::-ms-fill-upper {
 @keyframes left-spin {
   from {
     -webkit-transform: rotate(130deg);
-            transform: rotate(130deg);
+    transform: rotate(130deg);
   }
   50% {
     -webkit-transform: rotate(-5deg);
-            transform: rotate(-5deg);
+    transform: rotate(-5deg);
   }
   to {
     -webkit-transform: rotate(130deg);
-            transform: rotate(130deg);
+    transform: rotate(130deg);
   }
 }
 
@@ -1711,15 +1711,15 @@ input[type=range]:focus::-ms-fill-upper {
 @keyframes right-spin {
   from {
     -webkit-transform: rotate(-130deg);
-            transform: rotate(-130deg);
+    transform: rotate(-130deg);
   }
   50% {
     -webkit-transform: rotate(5deg);
-            transform: rotate(5deg);
+    transform: rotate(5deg);
   }
   to {
     -webkit-transform: rotate(-130deg);
-            transform: rotate(-130deg);
+    transform: rotate(-130deg);
   }
 }
 
@@ -1845,11 +1845,11 @@ input[type=range]:focus::-ms-fill-upper {
   width: 100%;
   height: 400px;
   -webkit-perspective: 500px;
-          perspective: 500px;
+  perspective: 500px;
   -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
+  transform-style: preserve-3d;
   -webkit-transform-origin: 0% 50%;
-          transform-origin: 0% 50%;
+  transform-origin: 0% 50%;
 }
 
 .carousel.carousel-slider {
@@ -1950,7 +1950,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .tap-target-wrapper.open .tap-target {
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
   opacity: .95;
   -webkit-transition: opacity 0.3s cubic-bezier(0.42, 0, 0.58, 1), -webkit-transform 0.3s cubic-bezier(0.42, 0, 0.58, 1);
   transition: opacity 0.3s cubic-bezier(0.42, 0, 0.58, 1), -webkit-transform 0.3s cubic-bezier(0.42, 0, 0.58, 1);
@@ -1960,26 +1960,26 @@ input[type=range]:focus::-ms-fill-upper {
 
 .tap-target-wrapper.open .tap-target-wave::before {
   -webkit-transform: scale(1);
-          transform: scale(1);
+  transform: scale(1);
 }
 
 .tap-target-wrapper.open .tap-target-wave::after {
   visibility: visible;
   -webkit-animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
-          animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
+  animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
   -webkit-transition: opacity .3s,
- visibility 0s 1s,
- -webkit-transform .3s;
+  visibility 0s 1s,
+  -webkit-transform .3s;
   transition: opacity .3s,
- visibility 0s 1s,
- -webkit-transform .3s;
+  visibility 0s 1s,
+  -webkit-transform .3s;
   transition: opacity .3s,
- transform .3s,
- visibility 0s 1s;
+  transform .3s,
+  visibility 0s 1s;
   transition: opacity .3s,
- transform .3s,
- visibility 0s 1s,
- -webkit-transform .3s;
+  transform .3s,
+  visibility 0s 1s,
+  -webkit-transform .3s;
 }
 
 .tap-target {
@@ -1988,12 +1988,12 @@ input[type=range]:focus::-ms-fill-upper {
   border-radius: 50%;
   background-color: #ee6e73;
   -webkit-box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.14), 0 10px 50px 0 rgba(0, 0, 0, 0.12), 0 30px 10px -20px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.14), 0 10px 50px 0 rgba(0, 0, 0, 0.12), 0 30px 10px -20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 20px 20px 0 rgba(0, 0, 0, 0.14), 0 10px 50px 0 rgba(0, 0, 0, 0.12), 0 30px 10px -20px rgba(0, 0, 0, 0.2);
   width: 100%;
   height: 100%;
   opacity: 0;
   -webkit-transform: scale(0);
-          transform: scale(0);
+  transform: scale(0);
   -webkit-transition: opacity 0.3s cubic-bezier(0.42, 0, 0.58, 1), -webkit-transform 0.3s cubic-bezier(0.42, 0, 0.58, 1);
   transition: opacity 0.3s cubic-bezier(0.42, 0, 0.58, 1), -webkit-transform 0.3s cubic-bezier(0.42, 0, 0.58, 1);
   transition: transform 0.3s cubic-bezier(0.42, 0, 0.58, 1), opacity 0.3s cubic-bezier(0.42, 0, 0.58, 1);
@@ -2023,7 +2023,7 @@ input[type=range]:focus::-ms-fill-upper {
 
 .tap-target-wave::before {
   -webkit-transform: scale(0);
-          transform: scale(0);
+  transform: scale(0);
   -webkit-transition: -webkit-transform .3s;
   transition: -webkit-transform .3s;
   transition: transform .3s;
@@ -2033,18 +2033,18 @@ input[type=range]:focus::-ms-fill-upper {
 .tap-target-wave::after {
   visibility: hidden;
   -webkit-transition: opacity .3s,
- visibility 0s,
- -webkit-transform .3s;
+  visibility 0s,
+  -webkit-transform .3s;
   transition: opacity .3s,
- visibility 0s,
- -webkit-transform .3s;
+  visibility 0s,
+  -webkit-transform .3s;
   transition: opacity .3s,
- transform .3s,
- visibility 0s;
+  transform .3s,
+  visibility 0s;
   transition: opacity .3s,
- transform .3s,
- visibility 0s,
- -webkit-transform .3s;
+  transform .3s,
+  visibility 0s,
+  -webkit-transform .3s;
   z-index: -1;
 }
 
@@ -2052,7 +2052,7 @@ input[type=range]:focus::-ms-fill-upper {
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   z-index: 10002;
   position: absolute !important;
 }
@@ -2088,7 +2088,7 @@ input[type=range]:focus::-ms-fill-upper {
   transition: opacity .3s, transform .3s;
   transition: opacity .3s, transform .3s, -webkit-transform .3s;
   -webkit-animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
-          animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
+  animation: pulse-animation 1s cubic-bezier(0.24, 0, 0.38, 1) infinite;
   z-index: -1;
 }
 
@@ -2096,17 +2096,17 @@ input[type=range]:focus::-ms-fill-upper {
   0% {
     opacity: 1;
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
   50% {
     opacity: 0;
     -webkit-transform: scale(1.5);
-            transform: scale(1.5);
+    transform: scale(1.5);
   }
   100% {
     opacity: 0;
     -webkit-transform: scale(1.5);
-            transform: scale(1.5);
+    transform: scale(1.5);
   }
 }
 
@@ -2114,17 +2114,17 @@ input[type=range]:focus::-ms-fill-upper {
   0% {
     opacity: 1;
     -webkit-transform: scale(1);
-            transform: scale(1);
+    transform: scale(1);
   }
   50% {
     opacity: 0;
     -webkit-transform: scale(1.5);
-            transform: scale(1.5);
+    transform: scale(1.5);
   }
   100% {
     opacity: 0;
     -webkit-transform: scale(1.5);
-            transform: scale(1.5);
+    transform: scale(1.5);
   }
 }
 
@@ -2134,7 +2134,7 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * Note: the root picker element should *NOT* be styled more than what's here.
  */
-.picker {
+ .picker {
   font-size: 16px;
   text-align: left;
   line-height: 1.2;
@@ -2151,21 +2151,21 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The picker input element.
  */
-.picker__input {
+ .picker__input {
   cursor: default;
 }
 
 /**
  * When the picker is opened, the input element is "activated".
  */
-.picker__input.picker__input--active {
+ .picker__input.picker__input--active {
   border-color: #0089ec;
 }
 
 /**
  * The holder is the only "scrollable" top-level container element.
  */
-.picker__holder {
+ .picker__holder {
   width: 100%;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
@@ -2181,8 +2181,8 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * Make the holder and frame fullscreen.
  */
-.picker__holder,
-.picker__frame {
+ .picker__holder,
+ .picker__frame {
   bottom: 0;
   left: 0;
   right: 0;
@@ -2192,7 +2192,7 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The holder should overlay the entire screen.
  */
-.picker__holder {
+ .picker__holder {
   position: fixed;
   -webkit-transition: background 0.15s ease-out, top 0s 0.15s;
   transition: background 0.15s ease-out, top 0s 0.15s;
@@ -2202,7 +2202,7 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The frame that bounds the box contents of the picker.
  */
-.picker__frame {
+ .picker__frame {
   position: absolute;
   margin: 0 auto;
   min-width: 256px;
@@ -2234,7 +2234,7 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The wrapper sets the stage to vertically align the box contents.
  */
-.picker__wrap {
+ .picker__wrap {
   display: table;
   width: 100%;
   height: 100%;
@@ -2249,7 +2249,7 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The box contains all the picker contents.
  */
-.picker__box {
+ .picker__box {
   background: #ffffff;
   display: table-cell;
   vertical-align: middle;
@@ -2270,7 +2270,7 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * When the picker opens...
  */
-.picker--opened .picker__holder {
+ .picker--opened .picker__holder {
   top: 0;
   background: transparent;
   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#1E000000,endColorstr=#1E000000)";
@@ -2301,34 +2301,34 @@ input[type=range]:focus::-ms-fill-upper {
 /* ==========================================================================
    CUSTOM MATERIALIZE STYLES
    ========================================================================== */
-.picker__input.picker__input--active {
-  border-color: #E3F2FD;
-}
-
-.picker__frame {
-  margin: 0 auto;
-  max-width: 325px;
-}
-
-@media (min-height: 38.875em) {
-  .picker--opened .picker__frame {
-    top: 10%;
-    bottom: auto;
+   .picker__input.picker__input--active {
+    border-color: #E3F2FD;
   }
-}
 
-@media only screen and (min-width: 601px) {
-  .picker__box {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-  }
   .picker__frame {
-    width: 80%;
-    max-width: 600px;
+    margin: 0 auto;
+    max-width: 325px;
   }
-}
+
+  @media (min-height: 38.875em) {
+    .picker--opened .picker__frame {
+      top: 10%;
+      bottom: auto;
+    }
+  }
+
+  @media only screen and (min-width: 601px) {
+    .picker__box {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+    }
+    .picker__frame {
+      width: 80%;
+      max-width: 600px;
+    }
+  }
 
 /* ==========================================================================
    $BASE-DATE-PICKER
@@ -2336,7 +2336,7 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The picker box.
  */
-.picker__box {
+ .picker__box {
   padding: 0;
   border-radius: 2px;
   overflow: hidden;
@@ -2345,7 +2345,7 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The header containing the month and year stuff.
  */
-.picker__header {
+ .picker__header {
   text-align: center;
   position: relative;
   margin-top: .75em;
@@ -2354,8 +2354,8 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The month and year labels.
  */
-.picker__month,
-.picker__year {
+ .picker__month,
+ .picker__year {
   display: inline-block;
   margin-left: .25em;
   margin-right: .25em;
@@ -2364,8 +2364,8 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The month and year selectors.
  */
-.picker__select--month,
-.picker__select--year {
+ .picker__select--month,
+ .picker__select--year {
   height: 2em;
   padding: 0;
   margin-left: .25em;
@@ -2392,14 +2392,14 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The month navigation buttons.
  */
-.picker__nav--prev,
-.picker__nav--next {
+ .picker__nav--prev,
+ .picker__nav--next {
   position: absolute;
   padding: .5em 1.25em;
   width: 1em;
   height: 1em;
   -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   top: -0.25em;
 }
 
@@ -2426,7 +2426,7 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The calendar table of dates
  */
-.picker__table {
+ .picker__table {
   text-align: center;
   border-collapse: collapse;
   border-spacing: 0;
@@ -2449,7 +2449,7 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The weekday labels
  */
-.picker__weekday {
+ .picker__weekday {
   width: 14.285714286%;
   font-size: .75em;
   padding-bottom: .25em;
@@ -2467,7 +2467,7 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The days on the calendar
  */
-.picker__day--today {
+ .picker__day--today {
   position: relative;
   color: #595959;
   letter-spacing: -.3;
@@ -2508,7 +2508,7 @@ input[type=range]:focus::-ms-fill-upper {
 .picker--focused .picker__day--selected {
   border-radius: 50%;
   -webkit-transform: scale(0.75);
-          transform: scale(0.75);
+  transform: scale(0.75);
   background: #0089ec;
   color: #ffffff;
 }
@@ -2530,7 +2530,7 @@ input[type=range]:focus::-ms-fill-upper {
 /**
  * The footer containing the "today", "clear", and "close" buttons.
  */
-.picker__footer {
+ .picker__footer {
   text-align: right;
 }
 
@@ -2618,158 +2618,158 @@ input[type=range]:focus::-ms-fill-upper {
 /*.picker__box {
   border-radius: 2px;
   overflow: hidden;
-}*/
-.picker__date-display {
-  text-align: left;
-  background-color: #26a69a;
-  color: #fff;
-  padding: 18px;
-  font-weight: 300;
-}
-
-@media only screen and (min-width: 601px) {
+  }*/
   .picker__date-display {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
+    text-align: left;
+    background-color: #26a69a;
+    color: #fff;
+    padding: 18px;
+    font-weight: 300;
   }
+
+  @media only screen and (min-width: 601px) {
+    .picker__date-display {
+      -webkit-box-flex: 1;
+      -webkit-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+    }
+    .picker__weekday-display {
+      display: block;
+    }
+    .picker__container__wrapper {
+      -webkit-box-flex: 2;
+      -webkit-flex: 2;
+      -ms-flex: 2;
+      flex: 2;
+    }
+  }
+
+  .picker__nav--prev:hover,
+  .picker__nav--next:hover {
+    cursor: pointer;
+    color: #000000;
+    background: #a1ded8;
+  }
+
   .picker__weekday-display {
-    display: block;
+    font-weight: 500;
+    font-size: 2.8rem;
+    margin-right: 5px;
+    margin-top: 4px;
   }
-  .picker__container__wrapper {
-    -webkit-box-flex: 2;
-    -webkit-flex: 2;
-        -ms-flex: 2;
-            flex: 2;
+
+  .picker__month-display {
+    font-size: 2.8rem;
+    font-weight: 500;
   }
-}
 
-.picker__nav--prev:hover,
-.picker__nav--next:hover {
-  cursor: pointer;
-  color: #000000;
-  background: #a1ded8;
-}
+  .picker__day-display {
+    font-size: 2.8rem;
+    font-weight: 500;
+    margin-right: 5px;
+  }
 
-.picker__weekday-display {
-  font-weight: 500;
-  font-size: 2.8rem;
-  margin-right: 5px;
-  margin-top: 4px;
-}
-
-.picker__month-display {
-  font-size: 2.8rem;
-  font-weight: 500;
-}
-
-.picker__day-display {
-  font-size: 2.8rem;
-  font-weight: 500;
-  margin-right: 5px;
-}
-
-.picker__year-display {
-  font-size: 1.5rem;
-  font-weight: 500;
-  color: rgba(255, 255, 255, 0.7);
-}
+  .picker__year-display {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.7);
+  }
 
 /*.picker__box {
   padding: 0;
-}*/
-.picker__calendar-container {
-  padding: 0 1rem;
-}
-
-.picker__calendar-container thead {
-  border: none;
-}
-
-.picker__table {
-  margin-top: 0;
-  margin-bottom: .5em;
-}
-
-.picker__day--infocus {
-  color: rgba(0, 0, 0, 0.87);
-  letter-spacing: -.3px;
-  padding: 0.75rem 0;
-  font-weight: 400;
-  border: 1px solid transparent;
-}
-
-@media only screen and (min-width: 601px) {
-  .picker__day--infocus {
-    padding: 1.1rem 0;
+  }*/
+  .picker__calendar-container {
+    padding: 0 1rem;
   }
-}
 
-.picker__day.picker__day--today {
-  color: #26a69a;
-}
+  .picker__calendar-container thead {
+    border: none;
+  }
 
-.picker__day.picker__day--today.picker__day--selected {
-  color: #fff;
-}
+  .picker__table {
+    margin-top: 0;
+    margin-bottom: .5em;
+  }
 
-.picker__weekday {
-  font-size: .9rem;
-}
+  .picker__day--infocus {
+    color: rgba(0, 0, 0, 0.87);
+    letter-spacing: -.3px;
+    padding: 0.75rem 0;
+    font-weight: 400;
+    border: 1px solid transparent;
+  }
 
-.picker__day--selected,
-.picker__day--selected:hover,
-.picker--focused .picker__day--selected {
-  border-radius: 50%;
-  -webkit-transform: scale(0.9);
-          transform: scale(0.9);
-  background-color: #26a69a;
-  color: #ffffff;
-}
+  @media only screen and (min-width: 601px) {
+    .picker__day--infocus {
+      padding: 1.1rem 0;
+    }
+  }
 
-.picker__day--selected.picker__day--outfocus,
-.picker__day--selected:hover.picker__day--outfocus,
-.picker--focused .picker__day--selected.picker__day--outfocus {
-  background-color: #a1ded8;
-}
+  .picker__day.picker__day--today {
+    color: #26a69a;
+  }
 
-.picker__footer {
-  text-align: right;
-  padding: 5px 10px;
-}
+  .picker__day.picker__day--today.picker__day--selected {
+    color: #fff;
+  }
 
-.picker__close, .picker__today, .picker__clear {
-  font-size: 1.1rem;
-  padding: 0 1rem;
-  color: #26a69a;
-}
+  .picker__weekday {
+    font-size: .9rem;
+  }
 
-.picker__clear {
-  color: #f44336;
-  float: left;
-}
+  .picker__day--selected,
+  .picker__day--selected:hover,
+  .picker--focused .picker__day--selected {
+    border-radius: 50%;
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+    background-color: #26a69a;
+    color: #ffffff;
+  }
 
-.picker__nav--prev:before,
-.picker__nav--next:before {
-  content: " ";
-  border-top: .5em solid transparent;
-  border-bottom: .5em solid transparent;
-  border-right: 0.75em solid #676767;
-  width: 0;
-  height: 0;
-  display: block;
-  margin: 0 auto;
-}
+  .picker__day--selected.picker__day--outfocus,
+  .picker__day--selected:hover.picker__day--outfocus,
+  .picker--focused .picker__day--selected.picker__day--outfocus {
+    background-color: #a1ded8;
+  }
 
-.picker__nav--next:before {
-  border-right: 0;
-  border-left: 0.75em solid #676767;
-}
+  .picker__footer {
+    text-align: right;
+    padding: 5px 10px;
+  }
 
-button.picker__today:focus, button.picker__clear:focus, button.picker__close:focus {
-  background-color: #a1ded8;
-}
+  .picker__close, .picker__today, .picker__clear {
+    font-size: 1.1rem;
+    padding: 0 1rem;
+    color: #26a69a;
+  }
+
+  .picker__clear {
+    color: #f44336;
+    float: left;
+  }
+
+  .picker__nav--prev:before,
+  .picker__nav--next:before {
+    content: " ";
+    border-top: .5em solid transparent;
+    border-bottom: .5em solid transparent;
+    border-right: 0.75em solid #676767;
+    width: 0;
+    height: 0;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .picker__nav--next:before {
+    border-right: 0;
+    border-left: 0.75em solid #676767;
+  }
+
+  button.picker__today:focus, button.picker__clear:focus, button.picker__close:focus {
+    background-color: #a1ded8;
+  }
 
 /* ==========================================================================
    $BASE-TIME-PICKER
@@ -2777,7 +2777,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 /**
  * The list of times.
  */
-.picker__list {
+ .picker__list {
   list-style: none;
   padding: 0.75em 0 4.2em;
   margin: 0;
@@ -2786,7 +2786,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 /**
  * The times on the clock.
  */
-.picker__list-item {
+ .picker__list-item {
   border-bottom: 1px solid #ddd;
   border-top: 1px solid #ddd;
   margin-bottom: -1px;
@@ -2847,7 +2847,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 /**
  * The clear button
  */
-.picker--time .picker__button--clear {
+ .picker--time .picker__button--clear {
   display: block;
   width: 80%;
   margin: 1em auto 0;
@@ -2890,7 +2890,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 /**
  * The frame the bounds the time picker.
  */
-.picker--time .picker__frame {
+ .picker--time .picker__frame {
   min-width: 256px;
   max-width: 320px;
 }
@@ -2898,7 +2898,7 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 /**
  * The picker box.
  */
-.picker--time .picker__box {
+ .picker--time .picker__box {
   font-size: 1em;
   background: #f2f2f2;
   padding: 0;
@@ -2913,153 +2913,153 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 /* ==========================================================================
    $DEFAULT-TIME-PICKER
    ========================================================================== */
-.clockpicker-display {
-  font-size: 4rem;
-  font-weight: bold;
-  text-align: center;
-  color: rgba(255, 255, 255, 0.6);
-  font-weight: 400;
-  clear: both;
-  position: relative;
-}
-
-.clockpicker-span-am-pm {
-  font-size: 1.3rem;
-  position: absolute;
-  right: 1rem;
-  bottom: 0.3rem;
-  line-height: 2rem;
-  font-weight: 500;
-}
-
-@media only screen and (min-width: 601px) {
-  .clockpicker-display {
-    top: 32%;
-  }
-  .clockpicker-span-am-pm {
-    position: relative;
-    right: auto;
-    bottom: auto;
+   .clockpicker-display {
+    font-size: 4rem;
+    font-weight: bold;
     text-align: center;
-    margin-top: 1.2rem;
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    clear: both;
+    position: relative;
   }
-}
 
-.text-primary {
-  color: white;
-}
+  .clockpicker-span-am-pm {
+    font-size: 1.3rem;
+    position: absolute;
+    right: 1rem;
+    bottom: 0.3rem;
+    line-height: 2rem;
+    font-weight: 500;
+  }
 
-.clockpicker-span-hours {
-  margin-right: 3px;
-}
+  @media only screen and (min-width: 601px) {
+    .clockpicker-display {
+      top: 32%;
+    }
+    .clockpicker-span-am-pm {
+      position: relative;
+      right: auto;
+      bottom: auto;
+      text-align: center;
+      margin-top: 1.2rem;
+    }
+  }
 
-.clockpicker-span-minutes {
-  margin-left: 3px;
-}
+  .text-primary {
+    color: white;
+  }
 
-.clockpicker-span-hours,
-.clockpicker-span-minutes,
-.clockpicker-span-am-pm div {
-  cursor: pointer;
-}
+  .clockpicker-span-hours {
+    margin-right: 3px;
+  }
 
-.clockpicker-moving {
-  cursor: move;
-}
+  .clockpicker-span-minutes {
+    margin-left: 3px;
+  }
 
-.clockpicker-plate {
-  background-color: #eee;
-  border-radius: 50%;
-  width: 270px;
-  height: 270px;
-  overflow: visible;
-  position: relative;
-  margin: auto;
-  margin-top: 25px;
-  margin-bottom: 5px;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-}
+  .clockpicker-span-hours,
+  .clockpicker-span-minutes,
+  .clockpicker-span-am-pm div {
+    cursor: pointer;
+  }
 
-.clockpicker-canvas,
-.clockpicker-dial {
-  width: 270px;
-  height: 270px;
-  position: absolute;
-  left: -1px;
-  top: -1px;
-}
+  .clockpicker-moving {
+    cursor: move;
+  }
 
-.clockpicker-minutes {
-  visibility: hidden;
-}
+  .clockpicker-plate {
+    background-color: #eee;
+    border-radius: 50%;
+    width: 270px;
+    height: 270px;
+    overflow: visible;
+    position: relative;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
 
-.clockpicker-tick {
-  border-radius: 50%;
-  color: rgba(0, 0, 0, 0.87);
-  line-height: 40px;
-  text-align: center;
-  width: 40px;
-  height: 40px;
-  position: absolute;
-  cursor: pointer;
-}
+  .clockpicker-canvas,
+  .clockpicker-dial {
+    width: 270px;
+    height: 270px;
+    position: absolute;
+    left: -1px;
+    top: -1px;
+  }
 
-.clockpicker-tick.active,
-.clockpicker-tick:hover {
-  background-color: rgba(38, 166, 154, 0.25);
-}
+  .clockpicker-minutes {
+    visibility: hidden;
+  }
 
-.clockpicker-dial {
-  -webkit-transition: -webkit-transform 350ms, opacity 350ms;
-  -webkit-transition: opacity 350ms, -webkit-transform 350ms;
-  transition: opacity 350ms, -webkit-transform 350ms;
-  transition: transform 350ms, opacity 350ms;
-  transition: transform 350ms, opacity 350ms, -webkit-transform 350ms;
-}
+  .clockpicker-tick {
+    border-radius: 50%;
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 40px;
+    text-align: center;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    cursor: pointer;
+  }
 
-.clockpicker-dial-out {
-  opacity: 0;
-}
+  .clockpicker-tick.active,
+  .clockpicker-tick:hover {
+    background-color: rgba(38, 166, 154, 0.25);
+  }
 
-.clockpicker-hours.clockpicker-dial-out {
-  -webkit-transform: scale(1.2, 1.2);
-  transform: scale(1.2, 1.2);
-}
+  .clockpicker-dial {
+    -webkit-transition: -webkit-transform 350ms, opacity 350ms;
+    -webkit-transition: opacity 350ms, -webkit-transform 350ms;
+    transition: opacity 350ms, -webkit-transform 350ms;
+    transition: transform 350ms, opacity 350ms;
+    transition: transform 350ms, opacity 350ms, -webkit-transform 350ms;
+  }
 
-.clockpicker-minutes.clockpicker-dial-out {
-  -webkit-transform: scale(0.8, 0.8);
-  transform: scale(0.8, 0.8);
-}
+  .clockpicker-dial-out {
+    opacity: 0;
+  }
 
-.clockpicker-canvas {
-  -webkit-transition: opacity 175ms;
-  transition: opacity 175ms;
-}
+  .clockpicker-hours.clockpicker-dial-out {
+    -webkit-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+  }
 
-.clockpicker-canvas-out {
-  opacity: 0.25;
-}
+  .clockpicker-minutes.clockpicker-dial-out {
+    -webkit-transform: scale(0.8, 0.8);
+    transform: scale(0.8, 0.8);
+  }
 
-.clockpicker-canvas-bearing {
-  stroke: none;
-  fill: #26a69a;
-}
+  .clockpicker-canvas {
+    -webkit-transition: opacity 175ms;
+    transition: opacity 175ms;
+  }
 
-.clockpicker-canvas-bg {
-  stroke: none;
-  fill: #26a69a;
-}
+  .clockpicker-canvas-out {
+    opacity: 0.25;
+  }
 
-.clockpicker-canvas-bg-trans {
-  fill: #26a69a;
-}
+  .clockpicker-canvas-bearing {
+    stroke: none;
+    fill: #26a69a;
+  }
 
-.clockpicker-canvas line {
-  stroke: #26a69a;
-  stroke-width: 4;
-  stroke-linecap: round;
-  /*shape-rendering: crispEdges;*/
-}
+  .clockpicker-canvas-bg {
+    stroke: none;
+    fill: #26a69a;
+  }
+
+  .clockpicker-canvas-bg-trans {
+    fill: #26a69a;
+  }
+
+  .clockpicker-canvas line {
+    stroke: #26a69a;
+    stroke-width: 4;
+    stroke-linecap: round;
+    /*shape-rendering: crispEdges;*/
+  }

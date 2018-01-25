@@ -1730,3 +1730,20 @@ tr:nth-child(even){background-color: #f2f2f2}
 .iframe{
   margin-top: 50px;
 }
+.add_field_button{
+  width: 100%;
+   font-size: 20px;
+  color:#7aad37;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin: 20px 0;
+  cursor: pointer;
+}
+.title-voltaasaulas{
+   font-family: 'Montserrat', sans-serif;
+   color: #333;
+   font-weight: bold;
+   margin: 40px 0;
+   margin-left: 60px;
+}
