@@ -26,8 +26,6 @@ require("includes/menu.php");
 			</div>
 			<div class="add_field_button">Adicionar outro arquivo</div>
 			<div class="row-flex align-center">
-
-				
 				<div class="l3 inputed">
 					<input type="submit" class="input-login" value="Cadastrar">
 				</div>
